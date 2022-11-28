@@ -1,48 +1,53 @@
-.out{
-    height: 500px;
-    width: 500px;
-    background-color: black;
+.out {
+  height: 500px;
+  width: 500px;
+  background-color: black;
 
-    margin: auto;
-   
-    position: relative;
+  margin: auto;
+
+  position: relative;
 }
-.div{
-      height: 150px;
-      width: 20px;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transition: 1s;
-
+.div {
+  height: 150px;
+  width: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transition: 1s;
 }
-.red{background-color: red;}
-.blue{background-color: blue;}
-.green{background-color: green;}
-.yellow{background-color: yellow;}
-.orange{background-color: orange;}
+.red {
+  background-color: navy;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+}
 
-.out:hover>.blue{
-    transform-origin: bottom;
+.out:hover > .blue {
+  transform-origin: bottom;
   transform: rotate(20deg);
 }
-.out:hover>.green{
-    transform-origin: bottom;
-    transform: rotate(40deg);
-  }
-  .out:hover>.yellow{
-    transform-origin: bottom;
-    transform: rotate(60deg);
-  }
-  .out:hover>.orange{
-    transform-origin: bottom;
-    transform: rotate(80deg);
+.out:hover > .green {
+  transform-origin: bottom;
+  transform: rotate(40deg);
 }
-.out:hover>.red{
-    transform-origin: bottom;
-    transform: rotate(90deg);
-  }
-  
-  
-  
-  
+.out:hover > .yellow {
+  transform-origin: bottom;
+  transform: rotate(60deg);
+}
+.out:hover > .orange {
+  transform-origin: bottom;
+  transform: rotate(80deg);
+}
+.out:hover > .red {
+  transform-origin: bottom;
+  transform: rotate(90deg);
+}
